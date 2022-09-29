@@ -1,4 +1,4 @@
-package com.java8.features.data.functionalinterface;
+package com.java8.features.functionalinterface;
 
 import java.util.function.Consumer;
 
