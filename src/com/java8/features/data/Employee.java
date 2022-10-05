@@ -8,13 +8,13 @@ import java.util.List;
  */
 public class Employee {
 	private String name;
-	private String level;
+	private int level;
 	private double ctc;
 	private String gender;
 	private List<String> skills;
 	
 	
-	public Employee(String name, String level, double ctc, String gender, List<String> skills) {
+	public Employee(String name, int level, double ctc, String gender, List<String> skills) {
 		super();
 		this.name = name;
 		this.level = level;
@@ -28,10 +28,10 @@ public class Employee {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getLevel() {
+	public int getLevel() {
 		return level;
 	}
-	public void setLevel(String level) {
+	public void setLevel(int level) {
 		this.level = level;
 	}
 	public double getCtc() {
